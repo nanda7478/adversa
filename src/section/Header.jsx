@@ -3,29 +3,48 @@ import React from "react";
 function Header() {
     return (
         <>
-           <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
-            <div class="container">
-                <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
-                    <i class="bi bi-hexagon-fill text-success me-2 fs-4"></i> AdsVersa
-                </a>
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navMenu">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#">Product</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Benefits</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Changelog</a></li>
-                    </ul>
-
-                    <a href="#" class="btn btn-dark px-4">Get Adsversa</a>
-                </div>
-            </div>
-        </nav>
+           <header>
+	<div className="header-section" id="myHeader">
+		<div className="container">
+			<div className="row">
+				<div className="col-sm-12">
+					<div className="header-meuu-right">
+						<div className="header-logo">
+							<a href="index.html"> <img src="/images/logo.png" alt="Logo"/></a>
+						</div>
+						<div className="menu-navbar">
+							<div className="navbar-header">
+								<button type="button" className="navbar-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+									<span className="icon-bar"></span>
+									<span className="icon-bar"></span>
+									<span className="icon-bar"></span>
+								</button>
+							</div>
+							<div className="collapse navbar-collapse iphonNav nav-top clearfix navigation" id="myNavbar" style={{ display: "block" }}>
+								<div className="mobile-logo" style={{ display: "none" }}>
+									<a href="#"> <img src="/images/logo.png" alt="Logo"/></a>
+								</div>
+								<div className="menu-top-menu-container">               
+									<ul> 
+										<li><a href="#">Product</a> </li>  
+										<li><a href="#">Reviews</a> </li>  
+										<li><a href="#">Benefits</a> </li>  
+										<li><a href="#">Pricing</a> </li>  
+										<li><a href="#">Changelog</a> </li>  
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div className="header-btns">
+							<a href="javascript:void(0);" className="theme-btn btn-black" role="button" data-bs-toggle="modal" data-bs-target="#form-popup">
+                                <img src="/images/btn-arrow.png" alt=""/> Get Adversa</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
         </>
     )
 }

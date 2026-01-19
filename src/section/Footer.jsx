@@ -4,62 +4,49 @@ const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <>
-          <footer class="footer-section">
-    <div class="container">
-        <div class="row gy-4">
-
-            
-            <div class="col-lg-4 col-md-6">
-                <div class="footer-brand d-flex align-items-start">
-                    <div class="logo-icon me-3">
-                        <i class="bi bi-hexagon-fill"></i>
-                    </div>
-                    <div>
-                        <h4 class="mb-0">AdsVersa</h4>
-                        <small>DIGITAL MARKETING AGENCY</small>
+       <>
+          <footer className="footer">
+            <div className="container">
+                <div className="footer-top">
+                    <div className="row">
+                        <div className="col-sm-6">
+                            <div className="about-ftr">
+                                <div className="ftr-logo">
+                                    <a href="#"><img src="images/logo.png" alt="Logo"/></a>
+                                </div>
+                                <div className="footer-menu">
+                                    <ul>
+                                        <li><a href="#">Product </a> </li>
+                                        <li><a href="#">Benefits </a> </li>
+                                        <li><a href="#">Reviews </a> </li>
+                                        <li><a href="#">Pricing </a> </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div className="col-sm-6">
+                            <div className="ftr-platforms">
+                                <p>You may also find me on these platforms!</p>
+                                <a href="#"><img src="images/github-icon.png" alt=" Logo"/></a>
+                                <a href="#"><img src="images/twitter-icon.png" alt=" Logo"/></a>
+                                <a href="#"><img src="images/figma-icon.png" alt=" Logo"/></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-           
-            <div class="col-lg-2 col-md-6">
-                <ul class="footer-links">
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Benefits</a></li>
-                    <li><a href="#">Reviews</a></li>
-                    <li><a href="#">Pricing</a></li>
-                </ul>
-            </div>
-
-           
-            <div class="col-lg-3 col-md-6">
-                <ul class="footer-links">
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Track my Order</a></li>
-                    <li><a href="#">Return my Order</a></li>
-                    <li><a href="#">FAQs</a></li>
-                </ul>
-            </div>
-
-           
-            <div class="col-lg-3 col-md-6">
-                <ul class="footer-links">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                </ul>
-            </div>
-
-        </div>
-
-        
-        <div class="footer-bottom text-center mt-4">
-            <small>© Adsversa digital marketing</small>
-        </div>
-    </div>
-</footer>
-
-        </>
+                <div className="copyright-section">
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <div className="copyright">
+                                <p> @Adsversa digital marketing </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </footer>
+     </>
     );
 };
 

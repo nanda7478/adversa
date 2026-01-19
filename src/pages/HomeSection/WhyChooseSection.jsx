@@ -4,77 +4,192 @@ const WhyChooseSection = () => {
         <>
           <section className="why-choose-section">
     <div className="container">
-
-       
-        <div className="text-center mb-5">
-            <div className="section-badge mb-2">
-                <i className="bi bi-gem"></i> THE ADSVERSA ADVANTAGES
-            </div>
-
-            <h2 className="fw-bold mb-3">Why Choose AdsVersa?</h2>
-            <p className="text-muted mx-auto" style={{maxWidth: "600px"}}>
-                Leverage the power of AI to automatically optimize your campaigns,
-                ensuring you get the best value for your business with every transaction.
-            </p>
-        </div>
-
-       
-        <div className="row text-center mb-5">
-
-            <div className="col-md-4 mb-4">
-                <div className="feature-box">
-                    <div className="feature-icon">
-                        <i className="bi bi-lightning-charge-fill"></i>
-                    </div>
-                    <h5>Lightning-Fast Customer Support</h5>
-                    <p>
-                        We respond quickly, keep communication clear,
-                        and ensure your campaigns are optimized effectively.
-                    </p>
+        <div className="row">
+            <div className="col-sm-12">
+                <div className="section-heading default-css wow animate__animated animate__fadeInUp">
+                    <div className="sub-heading-title"> <img src="images/sub-heading-logo.png" alt=""/>The Adsversa Advantages</div>
+                    <div className="heading-title">Why Choose AdsVersa?</div>
+					<p>Leverage the power of AI to automatically optimize your purchases, ensuring you get the best value for your business with every transaction.</p>
                 </div>
             </div>
-
-            <div className="col-md-4 mb-4">
-                <div className="feature-box">
-                    <div className="feature-icon">
-                        <i className="bi bi-bar-chart-fill"></i>
-                    </div>
-                    <h5>Proven Expertise in SEO & Digital Growth</h5>
-                    <p>
-                        Our team delivers measurable results across
-                        multiple industries and digital platforms.
-                    </p>
-                </div>
-            </div>
-
-            <div className="col-md-4 mb-4">
-                <div className="feature-box">
-                    <div className="feature-icon">
-                        <i className="bi bi-graph-up-arrow"></i>
-                    </div>
-                    <h5>Transparent, Data-Backed Results</h5>
-                    <p>
-                        Reports, insights, and clear metrics that
-                        show real progress and ROI.
-                    </p>
-                </div>
-            </div>
-
         </div>
-
-
-        <div className="row g-2 justify-content-center">
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-            <div className="col-auto"><span className="pill">Secure Transactions</span></div>
-        </div>
-
+		<div className="why-choose-row">
+			<div className="row">
+				<div className="col-sm-4 wow animate__animated animate__fadeInUp" data-wow-delay="0ms">
+					<div className="why-choose-box">
+						<figure><img src="images/why-choose-arrow.png" alt=""/></figure>
+						<h3>Lightning-Fast <br/> Customer Support</h3>
+						<p>We respond quickly, keep communication clear, and ensure you always know what’s happening with your project.</p>
+					</div>
+				</div>
+				<div className="col-sm-4 wow animate__animated animate__fadeInUp" data-wow-delay="100ms">
+					<div className="why-choose-box">
+						<figure><img src="images/why-choose-arrow.png" alt=""/></figure>
+						<h3>Proven Expertise in <br/> SEO & Digital Growth</h3>
+						<p>From technical SEO to local ranking strategies, our team brings hands-on experience across multiple industries.</p>
+					</div>
+				</div>
+				<div className="col-sm-4 wow animate__animated animate__fadeInUp" data-wow-delay="200ms">
+					<div className="why-choose-box">
+						<figure><img src="images/why-choose-arrow.png" alt=""/></figure>
+						<h3>Transparent, Data-<br/>Backed Results</h3>
+						<p>No guesswork — every campaign is backed by analytics, audits, and clear monthly reports that show real progress.</p>
+					</div>
+				</div>
+			</div>
+		</div>
     </div>
+</section>
+
+<section className="secure-transactions-section">
+	<div className="container-fluid">
+		<div className="secure-transactions-row">
+			<div className="secure-transactions-slider owl-carousel owl-theme">
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div class="item">
+					<div class="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+			</div> 
+			<div className="right-secure-transactions-slider owl-carousel owl-theme">
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+				<div className="item">
+					<div className="secure-transactions">
+					<h3>Secure Transactions</h3>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
 </section>
 
         </>
