@@ -3,7 +3,7 @@ const ScheduleSection = () => {
     return (
         <>
           <section className="schedule-call-section">
-    <div class="container">
+    <div className="container">
         <div className="row">
             <div className="col-sm-12">
 				<div className="default-css">

@@ -9,7 +9,7 @@ const PricingSection = () => {
 			<div className="col-sm-12">
 				<div className="section-heading text-center wow animate__animated animate__fadeInDown">
 						<div className="sub-heading-title"> <img src="images/sub-heading-logo.png" alt=""/>PRICING</div>
-					<div class="heading-title">Choose the Perfect Plan</div>
+					<div className="heading-title">Choose the Perfect Plan</div>
 					<p>We offer flexible pricing plans that align with where your business stands today and where it's headed.</p>
 				</div>
 			</div>

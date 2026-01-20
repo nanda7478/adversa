@@ -7,6 +7,12 @@ import ProcessSection from "./HomeSection/ProcessSection.jsx";
 import ProductSection from "./HomeSection/ProductSection.jsx";
 import PricingSection from "./HomeSection/PricingSection.jsx";
 import ScheduleSection from "./HomeSection/ScheduleSection.jsx";
+import ComparisonSection from "./HomeSection/ComparisonSection.jsx";
+import FaqSection from "./HomeSection/FaqSection.jsx";
+import ReviewSection from "./HomeSection/ReviewSection.jsx";
+import TakeawaySection from "./HomeSection/TakeawaySection.jsx";
+import BusinessSection from "./HomeSection/BusinessSection.jsx";
+import SecureTransationSection from "./HomeSection/SecureTransationSection.jsx";
 const Home = () => {
     return (
         <>
@@ -18,6 +24,13 @@ const Home = () => {
             <ProductSection />
             <PricingSection />
             <ScheduleSection />
+            <ComparisonSection />
+            <FaqSection />
+            <ReviewSection />
+            <SecureTransationSection />
+            <TakeawaySection />
+            <BusinessSection />
+            
         </>
     );      
 }

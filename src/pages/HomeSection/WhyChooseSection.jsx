@@ -85,8 +85,8 @@ const WhyChooseSection = () => {
 					<h3>Secure Transactions</h3>
 					</div>
 				</div>
-				<div class="item">
-					<div class="secure-transactions">
+				<div className="item">
+					<div className="secure-transactions">
 					<h3>Secure Transactions</h3>
 					</div>
 				</div>
